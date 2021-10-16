@@ -31,7 +31,6 @@ mpgqsec <- mtc_top %>% ggplot(aes(x=mpg, y=qsec, color=car))+geom_point()+
 ggplotly(mpgqsec)
 ```
 
-
 ### Engine Size
 
 How does engine size relate to mpg?

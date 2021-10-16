@@ -23,7 +23,8 @@ mtc <- mtcars
 mtc$car <- row.names(mtc)
 
 mtc %>% ggplot(aes(x=reorder(car, mpg), y=mpg))+geom_col()+
-  coord_flip()
+  coord_flip()+
+  labs(title='cars by mpg')
 ```
 
 ### Speed
