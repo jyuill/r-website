@@ -12,7 +12,7 @@ More details:
 ## Key Components
 
 1. **_site.yml**: provides overall yaml header, meta data, navigation.
-    + example here includes optional 'output' section - not required
+    + example here includes optional 'output' section to demonstrate additional functionality that can be incorporated (lots of other options available as well) - not required
 2. **index.Rmd**: required home page, with minimal yaml header, since it will work with _site.yml.
 3. **other Rmd**: any other pages you want to include.
 4. **site_builder.R**: optional file that holds **rmarkdown::render()** which is command that will build website.
